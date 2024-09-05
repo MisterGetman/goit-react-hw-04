@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import css from "./App.module.css";
-import ImageGallery from "./ImageGallery/ImageGallery";
-import SearchBar from "./SearchBar/SearchBar";
-import { getImages } from "./api/api";
-import Loader from "./Loader/Loader";
-import LoadMoreBtn from "./LoadMoreBtn/LoadMoreBtn";
-import ErrorMessage from "./ErrorMessage/ErrorMessage";
-import ImageModal from "./ImageModal/ImageModal";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
+import SearchBar from "./components/SearchBar/SearchBar";
+import { getImages } from "./components/api/api";
+import Loader from "./components/Loader/Loader";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
+import ImageModal from "./components/ImageModal/ImageModal";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
