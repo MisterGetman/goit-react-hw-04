@@ -1,0 +1,32 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loadMoreBtn {
+  background-color: #ffccf9;
+  border: none;
+  color: #ff4081;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  transition: all 0.3s ease;
+}
+
+.loadMoreBtn:hover {
+  background-color: #ff99e6;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.loadMoreBtn:active {
+  transform: translateY(0px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loadMoreBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 204, 249, 0.5);
+}
